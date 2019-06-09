@@ -4,12 +4,12 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
-      <y>20</y>
+      <x>290</x>
+      <y>40</y>
       <w>280</w>
       <h>340</h>
     </coordinates>
-    <panel_attributes>Archivo player.cfg
+    <panel_attributes>*Archivo player.cfg*
 -
 Informacion del personaje
 -
@@ -31,18 +31,19 @@ Informacion del personaje
  -ID del mapa donde se encuentra
  -Coordenada X
  -Coordenada Y
- </panel_attributes>
+
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>550</x>
-      <y>370</y>
-      <w>200</w>
+      <x>600</x>
+      <y>390</y>
+      <w>260</w>
       <h>250</h>
     </coordinates>
-    <panel_attributes>Archivos CFG
+    <panel_attributes>*Configuraciones cargadas al inicio*
 -
 Archivos de configuracion del
 juego
@@ -50,18 +51,20 @@ juego
 player.cfg
 monsters.cfg
 spawners.cfg
-</panel_attributes>
+
+
+bg=blue</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
-      <y>630</y>
+      <x>290</x>
+      <y>650</y>
       <w>280</w>
       <h>230</h>
     </coordinates>
-    <panel_attributes>Archivo spawners.cfg
+    <panel_attributes>*Archivo spawners.cfg*
 -
 Spawn de los mobs, tanto enemigos
 como NPC's.
@@ -72,18 +75,20 @@ como NPC's.
  -Coordenada X1
  -Coordenada Y1
  -Coordenada X2
- -Coordenada Y2</panel_attributes>
+ -Coordenada Y2
+
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
-      <y>370</y>
+      <x>290</x>
+      <y>390</y>
       <w>280</w>
       <h>250</h>
     </coordinates>
-    <panel_attributes>Archivo monsters.cfg
+    <panel_attributes>*Archivo monsters.cfg*
 -
 Atributos de las diferentes clases de mobs
 -
@@ -93,7 +98,9 @@ Atributos de las diferentes clases de mobs
  -HP actual
  -HP maximo
  -Experiencia minima que otorga
- -Experiencia máxima que otorga</panel_attributes>
+ -Experiencia máxima que otorga
+
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
